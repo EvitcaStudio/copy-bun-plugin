@@ -1,5 +1,11 @@
 # @evitcastudio/copy-bun-plugin
 
+## 1.0.3
+
+### Patch Changes
+
+- d9d7569: add: public access flag to publish.yml so the package can be published publicly
+
 ## 1.0.2
 
 ### Patch Changes

@@ -2,7 +2,7 @@
   "name": "@evitcastudio/copy-bun-plugin",
   "main": "index.mjs",
   "module": "index.mjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "scripts": {
     "lint": "eslint ."
