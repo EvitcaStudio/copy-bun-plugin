@@ -1,5 +1,5 @@
 {
-  "name": "@vitcastudio/copy-bun-plugin",
+  "name": "@evitcastudio/copy-bun-plugin",
   "main": "index.mjs",
   "module": "index.mjs",
   "version": "1.0.0",
