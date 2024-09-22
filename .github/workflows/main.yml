@@ -1,0 +1,34 @@
+name: Lint and Build CI
+
+# Triggers the workflow on push to any branch
+on:
+  push:
+
+jobs:
+  lint_and_build:
+    name: Lint and Build Job
+    runs-on: ubuntu-latest  # Runs on a virtual machine with Ubuntu
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Node.js environment (specify your node version)
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 'lts/*'
+
+    # Step 3: Install npm dependencies (using frozen lockfile for consistency)
+    - name: Install Dependencies
+      run: npm ci --frozen-lockfile
+
+    # Step 4: Run the linter
+    - name: Run Linter
+      run: npm run lint
+
+    # Run the build
+    # - name: Build Project
+    #   run: npm run build  # Only if you need a build step
+    #   if: always()  # Ensures this runs even if previous steps fail
