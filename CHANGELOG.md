@@ -1,5 +1,11 @@
 # @evitcastudio/copy-bun-plugin
 
+## 1.0.2
+
+### Patch Changes
+
+- 704963f: add: private field to package.json
+
 ## 1.0.1
 
 ### Patch Changes
