@@ -1,5 +1,11 @@
 # @evitcastudio/copy-bun-plugin
 
+## 1.0.4
+
+### Patch Changes
+
+- 0d268e2: fix: fast-glob from being a dev dependency
+
 ## 1.0.3
 
 ### Patch Changes
