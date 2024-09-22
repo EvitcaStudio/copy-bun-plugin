@@ -3,6 +3,7 @@
   "main": "index.mjs",
   "module": "index.mjs",
   "version": "1.0.1",
+  "private": false,
   "scripts": {
     "lint": "eslint ."
   },
